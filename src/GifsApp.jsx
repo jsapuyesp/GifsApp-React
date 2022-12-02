@@ -21,8 +21,6 @@ export const GifsApp = () => {
         onNewValue={(event) => onAddCategory(event)}
       />
 
-      <button onClick={onAddCategory}>Agregar</button>
-
       {categories.map((category) => {
         return <GifsGrid key={category} category={category} />;
       })}
