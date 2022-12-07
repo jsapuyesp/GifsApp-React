@@ -1,6 +1,5 @@
 import { useState } from "react";
-import { AddCategory } from "./components/AddCategory";
-import { GifsGrid } from "./components/GifsGrid";
+import { AddCategory, GifsGrid } from "./components";
 
 export const GifsApp = () => {
   const [categories, setCategories] = useState(["Goku"]);
