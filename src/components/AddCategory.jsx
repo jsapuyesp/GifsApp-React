@@ -20,7 +20,7 @@ export const AddCategory = (props) => {
   };
 
   return (
-    <form onSubmit={(event) => onSubmit(event)}>
+    <form onSubmit={(event) => onSubmit(event)} aria-label="form">
       <input
         type="text"
         placeholder={props.placeholder}
